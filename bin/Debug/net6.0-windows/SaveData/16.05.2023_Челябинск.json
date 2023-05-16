@@ -1,0 +1,57 @@
+{
+  "date": "2023-05-16T15:40:43.3387771+07:00",
+  "openWeather": {
+    "NonInformationAboutLocation": "Город не найден\nOW",
+    "main": {
+      "temp": 20.03
+    },
+    "name": "Chelyabinsk",
+    "date": "0001-01-01T00:00:00",
+    "openWeather": null,
+    "weatherstack": null,
+    "weatherapi": null,
+    "visCross": null
+  },
+  "weatherstack": {
+    "NonInformationAboutLocation": "Город не найден\nWS",
+    "Location": {
+      "name": "Челябинск"
+    },
+    "Current": {
+      "temperature": 21
+    },
+    "date": "0001-01-01T00:00:00",
+    "openWeather": null,
+    "weatherstack": null,
+    "weatherapi": null,
+    "visCross": null
+  },
+  "weatherapi": {
+    "NonInformationAboutLocation": "Город не найден\nWA",
+    "location": {
+      "name": "Челябинск"
+    },
+    "current": {
+      "temp_c": 21
+    },
+    "date": "0001-01-01T00:00:00",
+    "openWeather": null,
+    "weatherstack": null,
+    "weatherapi": null,
+    "visCross": null
+  },
+  "visCross": {
+    "NonInformationAboutLocation": "Город не найден\nVCW",
+    "address": "Челябинск",
+    "days": [
+      {
+        "temp": 14.9
+      }
+    ],
+    "date": "0001-01-01T00:00:00",
+    "openWeather": null,
+    "weatherstack": null,
+    "weatherapi": null,
+    "visCross": null
+  }
+}

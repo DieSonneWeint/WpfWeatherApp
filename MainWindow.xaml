@@ -1,0 +1,34 @@
+﻿<Window x:Class="WpfWeatherApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfWeatherApp"
+        mc:Ignorable="d"
+        Title="WeatherApp" Height="600" Width="1000" ResizeMode="NoResize">
+    <Window.Resources>
+        <BitmapImage x:Key="Backgrounds" UriSource="/Image2.png" CacheOption="Default"/>
+    </Window.Resources>
+    <Grid Margin="7,1,-1,-35" RenderTransformOrigin="0.481,0.259">
+        <Image Source="{DynamicResource Backgrounds}" Margin="-6,-1,0,0" HorizontalAlignment="Left" Width="1002" Grid.ColumnSpan="5" Stretch="UniformToFill"/>
+        <Button Name ="Button"  Content="Подтвердить" HorizontalAlignment="Left" Margin="376,415,0,0" VerticalAlignment="Top" Height="70" Width="178" Click="Button_Click" FontFamily="Consolas" FontSize="18"/>
+        <TextBox Name="TextBoxC" HorizontalAlignment="Left" Margin="376,359,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="178" Height="19" UndoLimit="12"/>
+        <Label Name = "LabelOpenWeat" HorizontalAlignment="Left" Margin="20,57,0,0" VerticalAlignment="Top" Height="117" Width="224" FontSize="20" FontFamily="Bahnschrift SemiLight" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-0.017"/>
+                    <RotateTransform Angle="0.294"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Name ="LabelVisualCros"  Content="" HorizontalAlignment="Left" Margin="283,57,0,0" VerticalAlignment="Top" Height="114" Width="194" FontSize="19" FontFamily="Bahnschrift SemiLight" RenderTransformOrigin="2.856,5.06"/>
+        <Label Name ="LabelWeatherApi" Content="" HorizontalAlignment="Left" Margin="515,59,0,0" VerticalAlignment="Top" Height="114" Width="198" FontSize="19" FontFamily="Bahnschrift SemiLight"/>
+        <Label Name ="LabelWeatherStack" Content="" HorizontalAlignment="Left" Margin="731,57,0,0" VerticalAlignment="Top" Height="111" Width="194" FontFamily="Bahnschrift SemiLight" FontSize="19" Grid.ColumnSpan="3"/>
+        <Label Name ="AverageTemp" Content="" HorizontalAlignment="Left" Margin="313,198,0,0" VerticalAlignment="Top" Height="91" Width="308" FontFamily="Bahnschrift SemiLight" FontSize="19"/>
+        <Button Name= "ButtonLoad" Content="Загрузить" HorizontalAlignment="Left" Margin="763,411,0,0" VerticalAlignment="Top" Height="76" Width="153" Click="Button_Click_2" FontFamily="Bahnschrift SemiLight" FontSize="18" Grid.ColumnSpan="2"/>
+        <Label Content="Введите название необходимой локации" Name="LabelEx" HorizontalAlignment="Left" Margin="297,307,0,0" VerticalAlignment="Top" Height="52" Width="340" FontSize="16" FontWeight="Bold"/>
+        <Button Name ="GrafButton" Content="График" HorizontalAlignment="Left" Margin="58,419,0,0" VerticalAlignment="Top" Height="69" Width="155" Click="Button_Click_1" FontFamily="Bahnschrift SemiLight" FontSize="18"/>
+    </Grid>
+</Window>

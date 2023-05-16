@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "a1kWuCFcIlD1JwnqA7HUQC2GIfw7Y2GZth9fMLmQtohDAz5xYrlGIvIAwq2DpCeBZ3phNBjL19JmJrlZyGotDg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\drago\\source\\repos\\WpfWeatherApp\\WpfWeatherApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\drago\\.nuget\\packages\\oxyplot.core\\2.1.2\\oxyplot.core.2.1.2.nupkg.sha512",
+    "C:\\Users\\drago\\.nuget\\packages\\oxyplot.wpf\\2.1.2\\oxyplot.wpf.2.1.2.nupkg.sha512",
+    "C:\\Users\\drago\\.nuget\\packages\\oxyplot.wpf.shared\\2.1.2\\oxyplot.wpf.shared.2.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
